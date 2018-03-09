@@ -5,12 +5,13 @@ export const RECEIVE_TODO = "RECEIVE_TODO";
 
 
 
-const receiveTodos = todos => ({ 
+export const receiveTodos = todos => ({ 
     type: "RECEIVE_TODOS", 
     todos
 });
 
-const receiveTodo = todo => ({
+export const receiveTodo = todo => ({
     type: "RECEIVE_TODO", 
     todo 
 });
+
