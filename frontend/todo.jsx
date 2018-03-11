@@ -10,7 +10,7 @@ import { createStore } from 'redux';
 class IntroComponent extends React.Component {
     render() {
         return (    
-            <h1>please work</h1>
+            <h1>if you see this, you've fucked up</h1>
         );
     }
 }
