@@ -25,6 +25,7 @@ class TodoList extends React.Component {
                 <ul>
                     <TodoListItem todos = {this.state} />
                 </ul>
+                <TodoForm />
             </div>
         );
     }
